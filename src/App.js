@@ -16,7 +16,7 @@ var clock = null
 var timerClock = null
 var gainNode = []
 
-const version = (packageJSON.homepage + packageJSON.subversion).slice(-10)
+const version = packageJSON.subversion;
  // defined in package.json
 const early = 0.1
 const late = 0.1
